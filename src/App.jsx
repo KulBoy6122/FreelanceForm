@@ -5,7 +5,7 @@ import education from './schema/education';
 import experience from './schema/experience';
 import FormRenderer from './components/FormRenderer';
 import DataPreview from './components/DataPreview';
-import SeeData from './components/SeeData'; // NEW component
+import SeeData from './components/seeData'; // NEW component
 import { v4 as uuidv4 } from 'uuid';
 
 const steps = [userProfile, education, experience];
