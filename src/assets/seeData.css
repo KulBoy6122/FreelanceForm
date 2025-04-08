@@ -1,0 +1,64 @@
+.see-data-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    gap:20px;
+  }
+  
+  .see-data-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .see-data-empty {
+    text-align: center;
+    color: #555;
+    font-size: 1.1rem;
+  }
+  
+  .see-data-card {
+    /* background: #f9f9f9; */
+    border: 1px solid;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .see-data-card-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .see-data-section {
+    margin-bottom: 1rem;
+  }
+  
+  .see-data-list,
+  .see-data-sublist {
+    padding-left: 20px;
+    margin-top: 0.5rem;
+  }
+  
+  .see-data-label {
+    font-weight: 500;
+  }
+  
+  .see-data-clear-btn {
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .see-data-clear-btn:hover {
+    background-color: #b71c1c;
+  }
+  
